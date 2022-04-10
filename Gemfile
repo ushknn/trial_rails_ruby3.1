@@ -43,7 +43,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem 'haml-rails'
-gem 'erb2haml'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
