@@ -1,4 +1,4 @@
-FROM ruby:3.0
+FROM ruby:3.0.4
 
 # yarnインストール時のバージョンを指定
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
