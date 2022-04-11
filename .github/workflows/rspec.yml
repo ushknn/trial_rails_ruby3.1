@@ -21,4 +21,4 @@ jobs:
       - name: create db
         run: docker-compose run web rails db:create
       - name: Run RSpec
-        run: docker-compose exec web rspec
+        run: docker-compose exec -T web rspec
