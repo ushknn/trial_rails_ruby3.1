@@ -5,13 +5,18 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
 
 * Configuration
+  ruby 3.0
+  rails 7.0
+  postgres 14.2
+
+* Docker settings
+  `docker-compose build`
+  `docker-compose up`
 
 * Database creation
+  `docker-compose run web rails db:create`
 
 * Database initialization
 
