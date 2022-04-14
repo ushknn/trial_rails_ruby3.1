@@ -8,8 +8,8 @@ on:
     branches:
       - main
 jobs:
-  pytest:
-    name: Run pytest
+  rspec:
+    name: Run RSpec
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
